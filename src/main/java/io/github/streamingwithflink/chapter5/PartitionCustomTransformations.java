@@ -19,7 +19,6 @@ public class PartitionCustomTransformations {
             }
         }
     }
-    //still have some problems
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         DataStream<Integer> numbers = env.fromElements(1, 2, 3, 4, 5, 6, 7, 8);
